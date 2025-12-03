@@ -1,0 +1,23 @@
+using System;
+
+namespace ConsoleApp10
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+               string transactionID = "TXN123ABC456";
+                 Console.WriteLine("Transaction ID: " + transactionID);
+              decimal amount = 1000000.75M;
+                  Console.WriteLine("Amount: ₹" + amount);
+              bool isInternational = true;
+                   Console.WriteLine("Is International: " + isInternational);
+              decimal customerRating = 4.75M;
+                    Console.WriteLine("Customer Rating: " + customerRating);
+               DateTime transactionTimestamp = DateTime.Now;
+                    Console.WriteLine("Transaction Timestamp: " + transactionTimestamp);
+               int rewardPoints = 500000;
+                    Console.WriteLine("Reward Points: " + rewardPoints);
+            }
+        }
+    }
